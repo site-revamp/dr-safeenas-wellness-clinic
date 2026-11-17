@@ -1,0 +1,2604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dr Safeenas Wellness Clinic | Integrated Healthcare Dubai</title>
+
+<meta name="description" content="Discover integrated healthcare at Dr Safeenas Wellness Clinic in Al Qusais, Dubai. Explore women's health, aesthetics, rehabilitation, dentistry and wellness.">
+
+<meta name="keywords" content="wellness clinic Dubai, healthcare clinic Al Qusais, aesthetic clinic Dubai, physiotherapy Dubai, gynecology Dubai, rehabilitation Dubai">
+
+<meta name="author" content="Dr Safeenas Wellness Clinic">
+<meta name="theme-color" content="#52013f">
+<meta name="robots" content="index, follow">
+
+<link rel="canonical" href="https://drsafeenaswellness.com/">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Dr Safeenas Wellness Clinic | Integrated Healthcare Dubai">
+<meta property="og:description" content="A more connected approach to healthcare, wellness and rehabilitation in Dubai.">
+<meta property="og:url" content="https://drsafeenaswellness.com/">
+<meta property="og:site_name" content="Dr Safeenas Wellness Clinic">
+
+<style>
+:root {
+  --color-primary: #52013F;
+  --color-primary-dark: #310025;
+  --color-primary-light: #8A356F;
+  --color-secondary: #E5B985;
+  --color-secondary-dark: #926B12;
+  --color-secondary-light: #F7EBDD;
+  --color-accent: #CDA31A;
+  --color-heading: #29202A;
+  --color-text: #49414A;
+  --color-text-muted: #756B75;
+  --color-background: #FCF9F7;
+  --color-background-alt: #F7F0F4;
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #F5E8EF;
+  --color-border: #E9DDE5;
+  --color-border-strong: #D5B8CC;
+  --color-interactive: #52013F;
+  --color-interactive-hover: #310025;
+  --color-focus: #926B12;
+
+  --font-heading: "DM Serif Display", Georgia, serif;
+  --font-body: "Manrope", Arial, sans-serif;
+
+  --container: 1240px;
+  --radius-small: 10px;
+  --radius-medium: 20px;
+  --radius-large: 32px;
+
+  --shadow-soft: 0 16px 45px rgba(49, 0, 37, .08);
+  --shadow-deep: 0 25px 70px rgba(49, 0, 37, .17);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background: var(--color-background);
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+body.menu-open {
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+}
+
+button, a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 4px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: min(var(--container), calc(100% - 64px));
+  margin-inline: auto;
+}
+
+.section {
+  padding: 110px 0;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--color-secondary-dark);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .19em;
+  text-transform: uppercase;
+}
+
+.eyebrow::before {
+  content: "";
+  width: 28px;
+  height: 1px;
+  background: var(--color-accent);
+}
+
+.section-heading {
+  font-family: var(--font-heading);
+  font-size: clamp(38px, 4.4vw, 57px);
+  line-height: 1.12;
+  font-weight: 400;
+  color: var(--color-primary);
+  letter-spacing: -.025em;
+}
+
+.section-intro {
+  max-width: 620px;
+  color: var(--color-text-muted);
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  min-height: 54px;
+  padding: 0 26px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .045em;
+  text-transform: uppercase;
+  transition: .3s ease;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: var(--color-primary-dark);
+  transform: translateY(-3px);
+}
+
+.btn-outline {
+  border-color: rgba(82,1,63,.25);
+  color: var(--color-primary);
+  background: transparent;
+}
+
+.btn-outline:hover {
+  background: var(--color-primary);
+  color: white;
+  border-color: var(--color-primary);
+}
+
+.btn-light {
+  background: white;
+  color: var(--color-primary);
+}
+
+.btn-light:hover {
+  background: var(--color-secondary-light);
+  transform: translateY(-3px);
+}
+
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--color-primary);
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+.text-link span {
+  transition: transform .3s ease;
+}
+
+.text-link:hover span {
+  transform: translateX(5px);
+}
+
+/* HEADER */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(252,249,247,.96);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(82,1,63,.09);
+}
+
+.topbar {
+  background: var(--color-primary-dark);
+  color: rgba(255,255,255,.83);
+  font-size: 11px;
+  letter-spacing: .04em;
+}
+
+.topbar-inner {
+  min-height: 37px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.topbar-contact {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.topbar a:hover {
+  color: var(--color-secondary);
+}
+
+.nav-wrap {
+  display: flex;
+  min-height: 88px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  flex-shrink: 0;
+}
+
+.brand-mark {
+  width: 46px;
+  height: 46px;
+  border: 1px solid var(--color-secondary);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: var(--color-primary);
+  font-family: var(--font-heading);
+  font-size: 25px;
+}
+
+.brand-copy strong {
+  display: block;
+  color: var(--color-primary);
+  font-family: var(--font-heading);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.brand-copy small {
+  display: block;
+  margin-top: 4px;
+  color: var(--color-text-muted);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+}
+
+.main-nav a {
+  position: relative;
+  color: var(--color-heading);
+  font-size: 12px;
+  font-weight: 700;
+  transition: color .25s ease;
+}
+
+.main-nav a:hover {
+  color: var(--color-primary-light);
+}
+
+.nav-cta {
+  white-space: nowrap;
+  min-height: 47px;
+  padding-inline: 20px;
+  font-size: 11px;
+}
+
+.menu-toggle {
+  display: none;
+  width: 46px;
+  height: 46px;
+  border: 1px solid var(--color-border);
+  background: white;
+  color: var(--color-primary);
+  cursor: pointer;
+  font-size: 22px;
+}
+
+/* HERO */
+
+.hero {
+  position: relative;
+  min-height: 690px;
+  background: var(--color-primary-dark);
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 670px;
+  height: 670px;
+  border: 1px solid rgba(229,185,133,.23);
+  border-radius: 50%;
+  top: -310px;
+  left: -190px;
+  z-index: -1;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border: 1px solid rgba(229,185,133,.13);
+  border-radius: 50%;
+  bottom: -360px;
+  right: 30%;
+  z-index: -1;
+}
+
+.hero-inner {
+  min-height: 690px;
+  display: grid;
+  grid-template-columns: 1.02fr .98fr;
+  align-items: center;
+  gap: 55px;
+  position: relative;
+}
+
+.hero-content {
+  padding: 90px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.hero .eyebrow {
+  color: var(--color-secondary);
+}
+
+.hero h1 {
+  max-width: 690px;
+  margin: 27px 0 24px;
+  color: white;
+  font-family: var(--font-heading);
+  font-size: clamp(52px, 6vw, 78px);
+  line-height: 1.03;
+  font-weight: 400;
+  letter-spacing: -.025em;
+}
+
+.hero h1 em {
+  color: var(--color-secondary);
+  font-weight: 400;
+}
+
+.hero-description {
+  max-width: 570px;
+  color: rgba(255,255,255,.77);
+  font-size: 16px;
+  line-height: 1.95;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 35px;
+}
+
+.hero .btn-outline {
+  border-color: rgba(255,255,255,.35);
+  color: white;
+}
+
+.hero .btn-outline:hover {
+  background: white;
+  color: var(--color-primary);
+}
+
+.hero-note {
+  margin-top: 44px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: rgba(255,255,255,.68);
+  font-size: 12px;
+}
+
+.hero-note-line {
+  width: 40px;
+  height: 1px;
+  background: var(--color-secondary);
+}
+
+.hero-visual {
+  height: 550px;
+  position: relative;
+}
+
+.hero-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 87%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 240px 240px 5px 5px;
+  filter: saturate(.75);
+}
+
+.hero-image-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 45%, rgba(49,0,37,.45));
+  border-radius: 240px 240px 5px 5px;
+}
+
+.hero-image-frame {
+  position: absolute;
+  width: 87%;
+  height: 100%;
+  right: -18px;
+  top: 18px;
+  border: 1px solid rgba(229,185,133,.65);
+  border-radius: 240px 240px 5px 5px;
+  pointer-events: none;
+}
+
+.hero-caption {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  max-width: 240px;
+  padding: 23px;
+  background: var(--color-secondary);
+  color: var(--color-primary-dark);
+  box-shadow: var(--shadow-deep);
+}
+
+.hero-caption small {
+  display: block;
+  font-size: 10px;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.hero-caption strong {
+  display: block;
+  margin-top: 8px;
+  font-family: var(--font-heading);
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+/* INTRODUCTION */
+
+.intro-section {
+  background: var(--color-background);
+}
+
+.intro-grid {
+  display: grid;
+  grid-template-columns: .8fr 1.2fr;
+  gap: 100px;
+  align-items: center;
+}
+
+.intro-aside {
+  position: relative;
+  min-height: 380px;
+  padding: 46px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: var(--color-secondary-light);
+  overflow: hidden;
+}
+
+.intro-aside::before,
+.intro-aside::after {
+  content: "";
+  position: absolute;
+  border: 1px solid rgba(82,1,63,.2);
+  border-radius: 50%;
+}
+
+.intro-aside::before {
+  width: 360px;
+  height: 360px;
+  top: -170px;
+  right: -100px;
+}
+
+.intro-aside::after {
+  width: 240px;
+  height: 240px;
+  top: -110px;
+  right: -40px;
+}
+
+.intro-number {
+  color: var(--color-primary);
+  font-family: var(--font-heading);
+  font-size: 112px;
+  line-height: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.intro-number-label {
+  margin-top: 12px;
+  color: var(--color-primary);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.intro-copy .section-heading {
+  margin: 22px 0;
+}
+
+.intro-copy p {
+  margin-bottom: 17px;
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.intro-copy .text-link {
+  margin-top: 15px;
+}
+
+/* SERVICE DISCOVERY */
+
+.services-section {
+  background: var(--color-background-alt);
+}
+
+.section-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 35px;
+  margin-bottom: 55px;
+}
+
+.section-top-content {
+  max-width: 670px;
+}
+
+.section-top .section-heading {
+  margin: 18px 0;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--color-border);
+  border: 1px solid var(--color-border);
+}
+
+.service-card {
+  position: relative;
+  min-height: 300px;
+  padding: 34px;
+  background: var(--color-surface);
+  transition: .35s ease;
+  overflow: hidden;
+}
+
+.service-card:hover {
+  background: var(--color-primary);
+  color: white;
+}
+
+.service-card:hover h3,
+.service-card:hover p,
+.service-card:hover .service-number,
+.service-card:hover .service-arrow {
+  color: white;
+}
+
+.service-number {
+  display: block;
+  color: var(--color-secondary-dark);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .14em;
+}
+
+.service-card h3 {
+  max-width: 270px;
+  margin: 27px 0 13px;
+  color: var(--color-primary);
+  font-family: var(--font-heading);
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 1.16;
+}
+
+.service-card p {
+  max-width: 310px;
+  color: var(--color-text-muted);
+  font-size: 13px;
+  line-height: 1.85;
+}
+
+.service-arrow {
+  position: absolute;
+  right: 30px;
+  bottom: 27px;
+  color: var(--color-primary);
+  font-size: 23px;
+  transition: transform .3s ease;
+}
+
+.service-card:hover .service-arrow {
+  transform: translateX(6px);
+}
+
+/* SIX CUSTOM SVG ICONS */
+
+.icon-section {
+  padding: 100px 0;
+  background: var(--color-primary);
+  color: white;
+}
+
+.icon-heading {
+  max-width: 720px;
+  margin-bottom: 48px;
+}
+
+.icon-heading .eyebrow {
+  color: var(--color-secondary);
+}
+
+.icon-heading h2 {
+  margin: 18px 0;
+  color: white;
+  font-family: var(--font-heading);
+  font-size: clamp(36px, 4vw, 51px);
+  font-weight: 400;
+  line-height: 1.16;
+}
+
+.icon-heading p {
+  color: rgba(255,255,255,.7);
+  font-size: 15px;
+}
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid rgba(255,255,255,.2);
+  border-left: 1px solid rgba(255,255,255,.2);
+}
+
+.icon-item {
+  min-height: 225px;
+  padding: 34px;
+  border-right: 1px solid rgba(255,255,255,.2);
+  border-bottom: 1px solid rgba(255,255,255,.2);
+}
+
+.custom-icon {
+  width: 52px;
+  height: 52px;
+  color: var(--color-secondary);
+  margin-bottom: 23px;
+}
+
+.icon-item h3 {
+  color: white;
+  font-family: var(--font-heading);
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.icon-item p {
+  margin-top: 9px;
+  color: rgba(255,255,255,.67);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+/* DOCTORS */
+
+.specialists-section {
+  background: var(--color-background);
+}
+
+.specialists-heading {
+  max-width: 730px;
+  margin-bottom: 50px;
+}
+
+.specialists-heading h2 {
+  margin: 17px 0;
+}
+
+.doctors-layout {
+  display: grid;
+  grid-template-columns: .9fr 1.1fr;
+  gap: 65px;
+  align-items: center;
+}
+
+.doctor-feature {
+  position: relative;
+  height: 530px;
+  background: var(--color-background-alt);
+  overflow: hidden;
+}
+
+.doctor-feature img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+}
+
+.doctor-feature-caption {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  right: 25px;
+  padding: 25px;
+  background: rgba(252,249,247,.96);
+}
+
+.doctor-feature-caption h3 {
+  color: var(--color-primary);
+  font-family: var(--font-heading);
+  font-size: 29px;
+  font-weight: 400;
+}
+
+.doctor-feature-caption p {
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
+.doctor-list {
+  border-top: 1px solid var(--color-border);
+}
+
+.doctor-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.doctor-row h3 {
+  color: var(--color-primary);
+  font-family: var(--font-heading);
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.doctor-row p {
+  margin-top: 3px;
+  color: var(--color-text-muted);
+  font-size: 12px;
+}
+
+.doctor-row span {
+  color: var(--color-secondary-dark);
+  font-size: 22px;
+}
+
+/* PATIENT JOURNEY */
+
+.journey-section {
+  background: var(--color-secondary-light);
+}
+
+.journey-grid {
+  display: grid;
+  grid-template-columns: .9fr 1.1fr;
+  gap: 85px;
+  align-items: center;
+}
+
+.journey-copy h2 {
+  margin: 18px 0 20px;
+}
+
+.journey-copy p {
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.journey-steps {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.journey-step {
+  min-height: 170px;
+  padding: 25px;
+  background: rgba(255,255,255,.75);
+  border: 1px solid rgba(82,1,63,.1);
+}
+
+.journey-step span {
+  display: block;
+  color: var(--color-secondary-dark);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .15em;
+}
+
+.journey-step h3 {
+  margin-top: 19px;
+  color: var(--color-primary);
+  font-family: var(--font-heading);
+  font-size: 25px;
+  font-weight: 400;
+}
+
+/* FACILITIES */
+
+.facilities-section {
+  background: var(--color-background);
+}
+
+.facilities-layout {
+  display: grid;
+  grid-template-columns: 1.1fr .9fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.facility-image {
+  height: 470px;
+  overflow: hidden;
+}
+
+.facility-image img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.facility-copy h2 {
+  margin: 18px 0;
+}
+
+.facility-copy p {
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.facility-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 25px;
+  margin: 30px 0;
+  list-style: none;
+}
+
+.facility-list li {
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-primary);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+/* TREAT U AT HOME */
+
+.home-care {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 410px;
+  background: var(--color-primary-dark);
+}
+
+.home-care-image {
+  min-height: 410px;
+  overflow: hidden;
+}
+
+.home-care-image img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.home-care-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 70px;
+}
+
+.home-care-copy .eyebrow {
+  color: var(--color-secondary);
+}
+
+.home-care-copy h2 {
+  margin: 18px 0;
+  color: white;
+  font-family: var(--font-heading);
+  font-size: clamp(38px, 4vw, 53px);
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+.home-care-copy p {
+  margin-bottom: 25px;
+  color: rgba(255,255,255,.73);
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.home-care-copy .btn {
+  align-self: flex-start;
+}
+
+/* ARTICLES */
+
+.articles-section {
+  background: var(--color-background-alt);
+}
+
+.articles-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 25px;
+  margin-bottom: 45px;
+}
+
+.articles-head h2 {
+  margin-top: 16px;
+}
+
+.article-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.article-item {
+  padding: 30px;
+  background: white;
+  border-bottom: 3px solid var(--color-secondary);
+}
+
+.article-item small {
+  color: var(--color-secondary-dark);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+}
+
+.article-item h3 {
+  margin: 20px 0;
+  color: var(--color-primary);
+  font-family: var(--font-heading);
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.article-item a {
+  color: var(--color-primary);
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+/* CTA */
+
+.cta-section {
+  padding: 90px 0;
+  background: var(--color-primary);
+  text-align: center;
+}
+
+.cta-inner {
+  max-width: 760px;
+  margin: auto;
+}
+
+.cta-section .eyebrow {
+  color: var(--color-secondary);
+}
+
+.cta-section h2 {
+  margin: 22px 0;
+  color: white;
+  font-family: var(--font-heading);
+  font-size: clamp(40px, 5vw, 62px);
+  line-height: 1.1;
+  font-weight: 400;
+}
+
+.cta-section p {
+  margin-bottom: 30px;
+  color: rgba(255,255,255,.74);
+  font-size: 15px;
+}
+
+/* CONTACT */
+
+.contact-section {
+  background: var(--color-background);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 90px;
+}
+
+.contact-copy h2 {
+  margin: 18px 0;
+}
+
+.contact-copy > p {
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.contact-detail {
+  margin-top: 32px;
+  padding-top: 23px;
+  border-top: 1px solid var(--color-border);
+}
+
+.contact-detail small {
+  display: block;
+  color: var(--color-secondary-dark);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.contact-detail a,
+.contact-detail address {
+  display: block;
+  margin-top: 7px;
+  color: var(--color-primary);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.map-panel {
+  min-height: 410px;
+  background: var(--color-secondary-light);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+}
+
+.map-panel h3 {
+  color: var(--color-primary);
+  font-family: var(--font-heading);
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.map-panel p {
+  margin: 12px 0 25px;
+  font-size: 14px;
+}
+
+/* FOOTER */
+
+.site-footer {
+  padding: 70px 0 30px;
+  background: var(--color-primary-dark);
+  color: rgba(255,255,255,.7);
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.4fr .8fr .8fr;
+  gap: 65px;
+  padding-bottom: 55px;
+}
+
+.footer-brand .brand-copy strong {
+  color: white;
+}
+
+.footer-brand .brand-mark {
+  color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.footer-brand p {
+  max-width: 360px;
+  margin-top: 25px;
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+.footer-column h3 {
+  margin-bottom: 22px;
+  color: white;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.footer-column a,
+.footer-column address {
+  display: block;
+  margin: 11px 0;
+  font-size: 13px;
+  font-style: normal;
+}
+
+.footer-column a:hover {
+  color: var(--color-secondary);
+}
+
+.footer-bottom {
+  padding-top: 25px;
+  border-top: 1px solid rgba(255,255,255,.15);
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 11px;
+}
+
+/* MOBILE STICKY CTA */
+
+.mobile-cta {
+  display: none;
+}
+
+/* ANIMATION */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(25px);
+  transition: opacity .75s ease, transform .75s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: .01ms !important;
+    transition-duration: .01ms !important;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* TABLET */
+
+@media (max-width: 1050px) {
+  .main-nav {
+    gap: 15px;
+  }
+
+  .nav-wrap {
+    gap: 18px;
+  }
+
+  .brand-copy strong {
+    font-size: 17px;
+  }
+
+  .hero-inner {
+    gap: 30px;
+  }
+
+  .hero-visual {
+    height: 480px;
+  }
+
+  .intro-grid,
+  .doctors-layout,
+  .journey-grid,
+  .facilities-layout,
+  .contact-grid {
+    gap: 45px;
+  }
+
+  .home-care-copy {
+    padding: 45px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 760px) {
+  html {
+    scroll-padding-top: 80px;
+  }
+
+  body {
+    padding-bottom: 76px;
+  }
+
+  .container {
+    width: min(100% - 40px, var(--container));
+  }
+
+  .section {
+    padding: 75px 0;
+  }
+
+  .topbar-inner {
+    justify-content: center;
+    min-height: 34px;
+  }
+
+  .topbar-contact {
+    justify-content: center;
+    gap: 15px;
+    font-size: 10px;
+  }
+
+  .nav-wrap {
+    min-height: 76px;
+  }
+
+  .brand-mark {
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+  }
+
+  .brand-copy strong {
+    font-size: 16px;
+  }
+
+  .brand-copy small {
+    font-size: 8px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-cta {
+    display: none;
+  }
+
+  .main-nav {
+    position: fixed;
+    top: 110px;
+    left: 0;
+    right: 0;
+    bottom: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 20px;
+    background: var(--color-background);
+    overflow-y: auto;
+    transform: translateX(100%);
+    transition: transform .3s ease;
+    z-index: 1001;
+  }
+
+  .main-nav.active {
+    transform: translateX(0);
+  }
+
+  .main-nav a {
+    padding: 18px 5px;
+    border-bottom: 1px solid var(--color-border);
+    font-size: 15px;
+  }
+
+  .hero,
+  .hero-inner {
+    min-height: auto;
+  }
+
+  .hero-inner {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .hero-content {
+    padding: 70px 0 35px;
+  }
+
+  .hero h1 {
+    margin: 23px 0;
+    font-size: clamp(46px, 12vw, 62px);
+  }
+
+  .hero-description {
+    font-size: 14px;
+  }
+
+  .hero-actions {
+    gap: 10px;
+  }
+
+  .hero-actions .btn {
+    min-height: 49px;
+    padding: 0 17px;
+    font-size: 11px;
+  }
+
+  .hero-note {
+    margin-top: 27px;
+  }
+
+  .hero-visual {
+    height: 420px;
+    margin-bottom: 45px;
+  }
+
+  .hero-image,
+  .hero-image-frame {
+    width: 86%;
+  }
+
+  .intro-grid,
+  .doctors-layout,
+  .journey-grid,
+  .facilities-layout,
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 38px;
+  }
+
+  .intro-aside {
+    min-height: 290px;
+  }
+
+  .intro-number {
+    font-size: 88px;
+  }
+
+  .section-top,
+  .articles-head {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-card {
+    min-height: 250px;
+  }
+
+  .icon-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .icon-item {
+    min-height: 210px;
+    padding: 22px;
+  }
+
+  .custom-icon {
+    width: 43px;
+    height: 43px;
+  }
+
+  .icon-item h3 {
+    font-size: 22px;
+  }
+
+  .doctor-feature {
+    height: 440px;
+  }
+
+  .journey-steps {
+    gap: 10px;
+  }
+
+  .journey-step {
+    min-height: 150px;
+    padding: 18px;
+  }
+
+  .journey-step h3 {
+    font-size: 22px;
+  }
+
+  .facility-image {
+    height: 320px;
+  }
+
+  .home-care {
+    grid-template-columns: 1fr;
+  }
+
+  .home-care-image {
+    min-height: 300px;
+    height: 300px;
+  }
+
+  .home-care-copy {
+    padding: 55px 25px;
+  }
+
+  .article-list {
+    grid-template-columns: 1fr;
+  }
+
+  .map-panel {
+    min-height: 300px;
+    padding: 30px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 35px 20px;
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+  }
+
+  .mobile-cta {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1200;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9px;
+    padding: 11px 15px calc(11px + env(safe-area-inset-bottom));
+    background: rgba(255,255,255,.97);
+    border-top: 1px solid var(--color-border);
+    box-shadow: 0 -8px 25px rgba(49,0,37,.09);
+  }
+
+  .mobile-cta a {
+    min-height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-primary);
+    color: white;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+  }
+
+  .mobile-cta a:first-child {
+    background: var(--color-secondary);
+    color: var(--color-primary-dark);
+  }
+}
+
+@media (max-width: 390px) {
+  .container {
+    width: calc(100% - 30px);
+  }
+
+  .brand-copy strong {
+    font-size: 14px;
+  }
+
+  .hero h1 {
+    font-size: 43px;
+  }
+
+  .hero-actions .btn {
+    padding-inline: 12px;
+    font-size: 10px;
+  }
+
+  .icon-item {
+    padding: 17px;
+  }
+
+  .facility-list {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header class="site-header">
+
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>Damascus Street, Al Qusais, Dubai, UAE</span>
+
+      <div class="topbar-contact">
+        <a href="tel:+97143210055">+971 4 321 0055</a>
+        <a href="mailto:info@drsafeenaswellness.com">Email Us</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container nav-wrap">
+
+    <a href="#home" class="brand" aria-label="Dr Safeenas Wellness Clinic home">
+      <span class="brand-mark">S</span>
+      <span class="brand-copy">
+        <strong>Dr Safeenas</strong>
+        <small>Wellness Clinic</small>
+      </span>
+    </a>
+
+    <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Our Services</a>
+      <a href="#specialists">Specialists</a>
+      <a href="#facilities">Facilities</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="https://drsafeenaswellness.com/contact/" class="btn btn-primary nav-cta">
+      Book an Appointment
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Open navigation"
+      aria-expanded="false"
+      aria-controls="mainNav">
+      ☰
+    </button>
+
+  </div>
+</header>
+
+
+<main>
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+  <div class="container hero-inner">
+
+    <div class="hero-content reveal">
+
+      <span class="eyebrow">Integrated Healthcare · Dubai</span>
+
+      <h1>
+        A more connected approach to
+        <em>your wellbeing.</em>
+      </h1>
+
+      <p class="hero-description">
+        Discover a multidisciplinary approach to healthcare at
+        Dr Safeenas Wellness Clinic. Bringing modern medicine,
+        rehabilitation and alternative medicine together for women,
+        men and children.
+      </p>
+
+      <div class="hero-actions">
+        <a href="https://drsafeenaswellness.com/contact/"
+          class="btn btn-light">
+          Book an Appointment
+          <span>↗</span>
+        </a>
+
+        <a href="#services" class="btn btn-outline">
+          Explore Our Services
+        </a>
+      </div>
+
+      <div class="hero-note">
+        <span class="hero-note-line"></span>
+        <span>One destination. Multiple dimensions of care.</span>
+      </div>
+
+    </div>
+
+    <div class="hero-visual reveal">
+
+      <img
+        class="hero-image"
+        src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1000&q=85"
+        alt="Healthcare professional in a clinical environment"
+        fetchpriority="high">
+
+      <div class="hero-image-overlay"></div>
+      <div class="hero-image-frame"></div>
+
+      <div class="hero-caption">
+        <small>Our approach</small>
+        <strong>Care beyond a single speciality.</strong>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- INTRODUCTION -->
+
+<section class="section intro-section" id="about">
+
+  <div class="container intro-grid">
+
+    <div class="intro-aside reveal">
+      <div class="intro-number">30+</div>
+      <div class="intro-number-label">
+        Years of holistic healthcare legacy
+      </div>
+    </div>
+
+    <div class="intro-copy reveal">
+
+      <span class="eyebrow">Who We Are</span>
+
+      <h2 class="section-heading">
+        Healthcare that sees the whole person.
+      </h2>
+
+      <p>
+        At Dr Safeenas Wellness Clinic, healthcare is approached
+        through the connection between medical expertise,
+        rehabilitation and wellness.
+      </p>
+
+      <p>
+        With a healthcare legacy of over 30 years, rooted in three
+        hospitals in Kochi, Kerala, India, the clinic brings together
+        doctors, therapists and wellness specialists under one roof.
+      </p>
+
+      <p>
+        Our multidisciplinary approach serves women, men and children
+        through a range of healthcare and rehabilitation disciplines.
+      </p>
+
+      <a href="https://drsafeenaswellness.com/contact/" class="text-link">
+        Connect With Our Clinic <span>→</span>
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- SERVICES -->
+
+<section class="section services-section" id="services">
+
+  <div class="container">
+
+    <div class="section-top">
+
+      <div class="section-top-content reveal">
+        <span class="eyebrow">Explore Our Care</span>
+
+        <h2 class="section-heading">
+          Find the care that fits your needs.
+        </h2>
+
+        <p class="section-intro">
+          Explore our key healthcare pathways and discover the
+          specialist services available at Dr Safeenas Wellness Clinic.
+        </p>
+      </div>
+
+      <a href="https://drsafeenaswellness.com/contact/"
+        class="btn btn-primary">
+        Enquire About Care
+      </a>
+
+    </div>
+
+
+    <div class="services-grid">
+
+      <a href="#specialists" class="service-card reveal">
+        <span class="service-number">01 / WOMEN'S HEALTH</span>
+        <h3>Gynocare</h3>
+        <p>
+          Obstetrics, gynaecology, fertility and aesthetic
+          and surgical gynaecology services.
+        </p>
+        <span class="service-arrow">↗</span>
+      </a>
+
+      <a href="#specialists" class="service-card reveal">
+        <span class="service-number">02 / AESTHETICS</span>
+        <h3>Skin & Aesthetic Care</h3>
+        <p>
+          Aesthetic dermatology, laser therapy, beauty therapy
+          and plastic surgery services.
+        </p>
+        <span class="service-arrow">↗</span>
+      </a>
+
+      <a href="#specialists" class="service-card reveal">
+        <span class="service-number">03 / MEN'S HEALTH</span>
+        <h3>Androcare</h3>
+        <p>
+          Urology, andrology and men's health services
+          within the clinic's multidisciplinary offering.
+        </p>
+        <span class="service-arrow">↗</span>
+      </a>
+
+      <a href="#specialists" class="service-card reveal">
+        <span class="service-number">04 / CHILD DEVELOPMENT</span>
+        <h3>CANDLE</h3>
+        <p>
+          Child-centred developmental support, speech therapy,
+          occupational therapy and behavioural interventions.
+        </p>
+        <span class="service-arrow">↗</span>
+      </a>
+
+      <a href="#specialists" class="service-card reveal">
+        <span class="service-number">05 / REHABILITATION</span>
+        <h3>Neurohab & Orthocare</h3>
+        <p>
+          Physiotherapy, rehabilitation, occupational therapy
+          and related multidisciplinary support.
+        </p>
+        <span class="service-arrow">↗</span>
+      </a>
+
+      <a href="#specialists" class="service-card reveal">
+        <span class="service-number">06 / DENTAL CARE</span>
+        <h3>Aesthetic Dentistry</h3>
+        <p>
+          Dental services including whitening, veneers,
+          fillings, crowns and other treatments.
+        </p>
+        <span class="service-arrow">↗</span>
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- INTEGRATED CARE ICONS -->
+
+<section class="icon-section">
+
+  <div class="container">
+
+    <div class="icon-heading reveal">
+
+      <span class="eyebrow">A Connected Healthcare Experience</span>
+
+      <h2>
+        Different disciplines. A shared commitment to wellbeing.
+      </h2>
+
+      <p>
+        A multidisciplinary healthcare environment brings together
+        different areas of expertise to support a broader range
+        of patient needs.
+      </p>
+
+    </div>
+
+
+    <!-- EXACTLY SIX CUSTOM SVG ICONS: TWO ROWS OF THREE -->
+
+    <div class="icon-grid">
+
+      <div class="icon-item reveal">
+
+        <svg class="custom-icon" viewBox="0 0 64 64"
+          fill="none" stroke="currentColor"
+          stroke-width="1.7" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true">
+
+          <path d="M32 52S10 39 10 22C10 12 23 8 32 20C41 8 54 12 54 22C54 39 32 52 32 52Z"/>
+          <path d="M19 31H26L30 23L36 39L40 31H47"/>
+
+        </svg>
+
+        <h3>Medical Expertise</h3>
+        <p>Healthcare across multiple medical disciplines and specialities.</p>
+
+      </div>
+
+
+      <div class="icon-item reveal">
+
+        <svg class="custom-icon" viewBox="0 0 64 64"
+          fill="none" stroke="currentColor"
+          stroke-width="1.7" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true">
+
+          <circle cx="32" cy="14" r="6"/>
+          <path d="M32 20V36M19 27L32 22L45 27M24 36L18 49M40 36L46 49M24 30L24 43L40 43L40 30"/>
+          <path d="M12 55H52"/>
+
+        </svg>
+
+        <h3>Rehabilitation</h3>
+        <p>Therapeutic and rehabilitation services for different needs.</p>
+
+      </div>
+
+
+      <div class="icon-item reveal">
+
+        <svg class="custom-icon" viewBox="0 0 64 64"
+          fill="none" stroke="currentColor"
+          stroke-width="1.7" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true">
+
+          <path d="M32 8C24 19 17 27 17 37A15 15 0 0 0 47 37C47 27 40 19 32 8Z"/>
+          <path d="M25 39C25 44 29 47 34 47"/>
+          <path d="M32 19V29M27 24H37"/>
+
+        </svg>
+
+        <h3>Holistic Wellness</h3>
+        <p>Integrative approaches alongside the clinic's medical services.</p>
+
+      </div>
+
+
+      <div class="icon-item reveal">
+
+        <svg class="custom-icon" viewBox="0 0 64 64"
+          fill="none" stroke="currentColor"
+          stroke-width="1.7" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true">
+
+          <circle cx="32" cy="21" r="9"/>
+          <path d="M14 53C14 42 22 35 32 35S50 42 50 53"/>
+          <path d="M10 15L15 10M49 10L54 15M32 5V2"/>
+
+        </svg>
+
+        <h3>Patient-Centred Care</h3>
+        <p>Different specialist perspectives with attention to individual needs.</p>
+
+      </div>
+
+
+      <div class="icon-item reveal">
+
+        <svg class="custom-icon" viewBox="0 0 64 64"
+          fill="none" stroke="currentColor"
+          stroke-width="1.7" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true">
+
+          <path d="M12 52H52M17 52V25L32 13L47 25V52"/>
+          <path d="M25 52V38H39V52"/>
+          <path d="M26 27H38M32 21V33"/>
+
+        </svg>
+
+        <h3>Modern Facilities</h3>
+        <p>Dedicated wellness and fitness facilities supporting the clinic's offering.</p>
+
+      </div>
+
+
+      <div class="icon-item reveal">
+
+        <svg class="custom-icon" viewBox="0 0 64 64"
+          fill="none" stroke="currentColor"
+          stroke-width="1.7" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true">
+
+          <rect x="9" y="13" width="46" height="38" rx="3"/>
+          <path d="M9 23H55M20 7V18M44 7V18"/>
+          <path d="M20 34H27L31 29L36 40L40 34H45"/>
+
+        </svg>
+
+        <h3>Accessible Connections</h3>
+        <p>Clear contact pathways to help patients take their next step.</p>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- SPECIALISTS -->
+
+<section class="section specialists-section" id="specialists">
+
+  <div class="container">
+
+    <div class="specialists-heading reveal">
+
+      <span class="eyebrow">Meet Our Experts</span>
+
+      <h2 class="section-heading">
+        Expertise with a human approach.
+      </h2>
+
+      <p class="section-intro">
+        Explore some of the specialists introduced on the clinic's
+        official website and discover the different disciplines
+        represented within its healthcare team.
+      </p>
+
+    </div>
+
+
+    <div class="doctors-layout">
+
+      <div class="doctor-feature reveal">
+
+        <img
+          src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=850&q=85"
+          alt="Representative healthcare professional portrait"
+          loading="lazy">
+
+        <div class="doctor-feature-caption">
+          <h3>Dr. Safeena Anas</h3>
+          <p>Gynecologist & Laparoscopic Surgeon</p>
+        </div>
+
+      </div>
+
+
+      <div class="doctor-list reveal">
+
+        <div class="doctor-row">
+          <div>
+            <h3>Dr. A.M. Anvar</h3>
+            <p>Ayurveda and Integrated Medicine</p>
+          </div>
+          <span>↗</span>
+        </div>
+
+        <div class="doctor-row">
+          <div>
+            <h3>Dr. Tasneem Mahmoud</h3>
+            <p>Dermatologist</p>
+          </div>
+          <span>↗</span>
+        </div>
+
+        <div class="doctor-row">
+          <div>
+            <h3>Dr. Nandita Manoharan</h3>
+            <p>Prosthodontist</p>
+          </div>
+          <span>↗</span>
+        </div>
+
+        <div class="doctor-row">
+          <div>
+            <h3>Dr. Anas Alhindawi</h3>
+            <p>Urologist & Men's Sexual Health Expert</p>
+          </div>
+          <span>↗</span>
+        </div>
+
+        <div class="doctor-row">
+          <div>
+            <h3>Dr. Sincy C Thomas</h3>
+            <p>Ayurvedic & Sports Science Professional</p>
+          </div>
+          <span>↗</span>
+        </div>
+
+        <div class="doctor-row">
+          <div>
+            <h3>Dr. Deepak Kalia</h3>
+            <p>Plastic & Hair Transplant Surgeon</p>
+          </div>
+          <span>↗</span>
+        </div>
+
+        <a href="https://drsafeenaswellness.com/"
+          class="text-link" style="margin-top:28px">
+          Explore Our Clinic <span>→</span>
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- PATIENT JOURNEY -->
+
+<section class="section journey-section">
+
+  <div class="container journey-grid">
+
+    <div class="journey-copy reveal">
+
+      <span class="eyebrow">Your Next Step</span>
+
+      <h2 class="section-heading">
+        Start with a conversation.
+      </h2>
+
+      <p>
+        Whether you are exploring a healthcare service, seeking
+        specialist guidance or learning more about the clinic,
+        our team provides a direct starting point for your enquiry.
+      </p>
+
+      <a href="https://drsafeenaswellness.com/contact/"
+        class="btn btn-primary" style="margin-top:28px">
+        Contact The Clinic
+      </a>
+
+    </div>
+
+
+    <div class="journey-steps reveal">
+
+      <div class="journey-step">
+        <span>STEP 01</span>
+        <h3>Explore your needs</h3>
+      </div>
+
+      <div class="journey-step">
+        <span>STEP 02</span>
+        <h3>Find a service</h3>
+      </div>
+
+      <div class="journey-step">
+        <span>STEP 03</span>
+        <h3>Contact the clinic</h3>
+      </div>
+
+      <div class="journey-step">
+        <span>STEP 04</span>
+        <h3>Discuss your next step</h3>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- FACILITIES -->
+
+<section class="section facilities-section" id="facilities">
+
+  <div class="container facilities-layout">
+
+    <div class="facility-image reveal">
+
+      <img
+        src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1000&q=85"
+        alt="Wellness and movement studio environment"
+        loading="lazy">
+
+    </div>
+
+
+    <div class="facility-copy reveal">
+
+      <span class="eyebrow">Beyond Clinical Care</span>
+
+      <h2 class="section-heading">
+        Space for movement, balance and wellness.
+      </h2>
+
+      <p>
+        The clinic's support facilities complement its wider
+        healthcare offering with dedicated spaces for movement,
+        fitness and aesthetic wellness.
+      </p>
+
+      <ul class="facility-list">
+        <li>Aesthetic Gym</li>
+        <li>Pilates Studio</li>
+        <li>Yoga Studio</li>
+        <li>EMS Studio</li>
+        <li>Body Sculpting</li>
+        <li>Beauty Lounge</li>
+      </ul>
+
+      <a href="https://drsafeenaswellness.com/contact/"
+        class="text-link">
+        Enquire About Facilities <span>→</span>
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- HOME CARE -->
+
+<section class="home-care">
+
+  <div class="home-care-image">
+    <img
+      src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1000&q=85"
+      alt="Healthcare professional providing patient care"
+      loading="lazy">
+  </div>
+
+  <div class="home-care-copy reveal">
+
+    <span class="eyebrow">Treat U At Home</span>
+
+    <h2>
+      Healthcare that reaches beyond the clinic.
+    </h2>
+
+    <p>
+      The clinic also presents home healthcare and rehabilitation
+      services for patients seeking care at home, hotels, offices
+      or serviced residences.
+    </p>
+
+    <a href="https://drsafeenaswellness.com/contact/"
+      class="btn btn-light">
+      Enquire About Home Care
+    </a>
+
+  </div>
+
+</section>
+
+
+<!-- ARTICLES -->
+
+<section class="section articles-section">
+
+  <div class="container">
+
+    <div class="articles-head">
+
+      <div class="reveal">
+        <span class="eyebrow">Health Knowledge</span>
+        <h2 class="section-heading">
+          Informed care starts with awareness.
+        </h2>
+      </div>
+
+      <a href="https://drsafeenaswellness.com/"
+        class="text-link">
+        Explore Clinic Updates <span>→</span>
+      </a>
+
+    </div>
+
+
+    <div class="article-list">
+
+      <article class="article-item reveal">
+        <small>Women's Health</small>
+        <h3>Understanding the signs of abnormal uterine bleeding.</h3>
+        <a href="https://drsafeenaswellness.com/">
+          Explore Clinic Articles →
+        </a>
+      </article>
+
+      <article class="article-item reveal">
+        <small>Pregnancy Health</small>
+        <h3>Understanding diabetes in pregnancy.</h3>
+        <a href="https://drsafeenaswellness.com/">
+          Explore Clinic Articles →
+        </a>
+      </article>
+
+      <article class="article-item reveal">
+        <small>Child Development</small>
+        <h3>Understanding learning difficulties and early signs.</h3>
+        <a href="https://drsafeenaswellness.com/">
+          Explore Clinic Articles →
+        </a>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- CTA -->
+
+<section class="cta-section">
+
+  <div class="container">
+
+    <div class="cta-inner reveal">
+
+      <span class="eyebrow">Your Wellbeing Matters</span>
+
+      <h2>
+        Take the first step towards more connected care.
+      </h2>
+
+      <p>
+        Contact Dr Safeenas Wellness Clinic to enquire about
+        its healthcare services and appointment options.
+      </p>
+
+      <a href="https://drsafeenaswellness.com/contact/"
+        class="btn btn-light">
+        Book an Appointment
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- CONTACT -->
+
+<section class="section contact-section" id="contact">
+
+  <div class="container contact-grid">
+
+    <div class="contact-copy reveal">
+
+      <span class="eyebrow">Get In Touch</span>
+
+      <h2 class="section-heading">
+        Let's connect you with the right care.
+      </h2>
+
+      <p>
+        Have a question about the clinic or its services?
+        Reach out directly through the official contact channels.
+      </p>
+
+
+      <div class="contact-detail">
+        <small>Visit Our Clinic</small>
+        <address>
+          Damascus Street, Al Qusais,<br>
+          Dubai, United Arab Emirates.
+        </address>
+      </div>
+
+
+      <div class="contact-detail">
+        <small>Call Our Team</small>
+        <a href="tel:+97143210055">+971 4 321 0055</a>
+        <a href="tel:+971509146370">+971 50 914 6370</a>
+      </div>
+
+
+      <div class="contact-detail">
+        <small>Email</small>
+        <a href="mailto:info@drsafeenaswellness.com">
+          info@drsafeenaswellness.com
+        </a>
+        <a href="mailto:appointment@drsafeenaswellness.com">
+          appointment@drsafeenaswellness.com
+        </a>
+      </div>
+
+
+      <div class="contact-actions">
+
+        <a href="https://drsafeenaswellness.com/contact/"
+          class="btn btn-primary">
+          Appointment Enquiry
+        </a>
+
+        <a href="tel:+971509146370"
+          class="btn btn-outline">
+          Call The Clinic
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="map-panel reveal">
+
+      <span class="eyebrow">Find Us In Dubai</span>
+
+      <h3>Dr Safeenas Wellness Clinic</h3>
+
+      <p>
+        Damascus Street, Al Qusais, Dubai, UAE.
+      </p>
+
+      <a
+        href="https://www.google.com/maps/search/?api=1&query=Dr+Safeenas+Wellness+Clinic+Al+Qusais+Dubai"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-primary">
+        Get Directions ↗
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+
+<!-- FOOTER -->
+
+<footer class="site-footer">
+
+  <div class="container">
+
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+
+        <a href="#home" class="brand">
+          <span class="brand-mark">S</span>
+          <span class="brand-copy">
+            <strong>Dr Safeenas</strong>
+            <small>Wellness Clinic</small>
+          </span>
+        </a>
+
+        <p>
+          An integrated healthcare and wellness destination
+          bringing modern medicine, rehabilitation and
+          alternative medicine together in Dubai.
+        </p>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h3>Explore</h3>
+
+        <a href="#about">About The Clinic</a>
+        <a href="#services">Our Services</a>
+        <a href="#specialists">Our Specialists</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#contact">Contact</a>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h3>Contact</h3>
+
+        <address>
+          Damascus Street,<br>
+          Al Qusais, Dubai, UAE.
+        </address>
+
+        <a href="tel:+97143210055">+971 4 321 0055</a>
+        <a href="tel:+971509146370">+971 50 914 6370</a>
+        <a href="mailto:info@drsafeenaswellness.com">
+          Email The Clinic
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+      <span>
+        © <span id="year">2026</span> Dr Safeenas Wellness Clinic.
+        All rights reserved.
+      </span>
+
+      <a href="https://drsafeenaswellness.com/contact/">
+        Appointment Enquiries
+      </a>
+    </div>
+
+  </div>
+</footer>
+
+
+<!-- EXACTLY TWO MOBILE CTA BUTTONS -->
+
+<div class="mobile-cta" aria-label="Quick contact actions">
+
+  <a href="tel:+971509146370">
+    Call Clinic
+  </a>
+
+  <a href="https://drsafeenaswellness.com/contact/">
+    Book Appointment
+  </a>
+
+</div>
+
+
+<script>
+/* MOBILE NAVIGATION */
+
+const menuToggle = document.getElementById("menuToggle");
+const mainNav = document.getElementById("mainNav");
+
+function closeMenu() {
+  mainNav.classList.remove("active");
+  document.body.classList.remove("menu-open");
+  menuToggle.setAttribute("aria-expanded", "false");
+  menuToggle.setAttribute("aria-label", "Open navigation");
+  menuToggle.textContent = "☰";
+}
+
+menuToggle.addEventListener("click", () => {
+  const isOpen = mainNav.classList.toggle("active");
+
+  document.body.classList.toggle("menu-open", isOpen);
+
+  menuToggle.setAttribute("aria-expanded", String(isOpen));
+  menuToggle.setAttribute(
+    "aria-label",
+    isOpen ? "Close navigation" : "Open navigation"
+  );
+
+  menuToggle.textContent = isOpen ? "×" : "☰";
+});
+
+mainNav.querySelectorAll("a").forEach(link => {
+  link.addEventListener("click", closeMenu);
+});
+
+document.addEventListener("keydown", event => {
+  if (event.key === "Escape") {
+    closeMenu();
+  }
+});
+
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 760) {
+    closeMenu();
+  }
+});
+
+
+/* SCROLL REVEAL */
+
+const revealElements = document.querySelectorAll(".reveal");
+
+if ("IntersectionObserver" in window) {
+
+  const observer = new IntersectionObserver((entries, obs) => {
+
+    entries.forEach(entry => {
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+        obs.unobserve(entry.target);
+      }
+
+    });
+
+  }, {
+    threshold: 0.12
+  });
+
+  revealElements.forEach(element => {
+    observer.observe(element);
+  });
+
+} else {
+
+  revealElements.forEach(element => {
+    element.classList.add("visible");
+  });
+
+}
+
+
+/* CURRENT YEAR */
+
+document.getElementById("year").textContent =
+  new Date().getFullYear();
+
+</script>
+
+
+<!-- STRUCTURED DATA -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalClinic",
+  "name": "Dr Safeenas Wellness Clinic",
+  "url": "https://drsafeenaswellness.com/",
+  "telephone": [
+    "+97143210055",
+    "+971509146370"
+  ],
+  "email": "info@drsafeenaswellness.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Damascus Street, Al Qusais",
+    "addressLocality": "Dubai",
+    "addressCountry": "AE"
+  },
+  "medicalSpecialty": [
+    "Gynecology",
+    "Dermatology",
+    "Dentistry",
+    "Physiotherapy"
+  ]
+}
+</script>
+
+</body>
+</html>
